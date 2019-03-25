@@ -2,4 +2,4 @@
 
 Code and whatnot for the review
 
-Merged_final.csv is teh final decisions for which studies to include
+Merged_final.csv is the final decisions for which studies to include, n = 33
