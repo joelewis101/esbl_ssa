@@ -133,6 +133,7 @@ df.a.sum$population <- factor(df.a.sum$population, levels = (c("Inpatient", "On 
 
 df.a.sum$study_name <- factor(df.a.sum$study_name,levels = (unique(df.adults$study_name[order(df.adults$year_pub) ])))
 
+###
 
 metaprop(x, n, data = df.a.sum, 
          , byvar = population, studlab = study_name) -> ma
