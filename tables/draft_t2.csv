@@ -1,0 +1,26 @@
+"study_name","year_pub","Risk factors assessed","Which risk factors","Sig risk factors"
+"Tande 2009",2009,"Yes","direct contact with the children",NA
+"Andriatahina 2010",2010,"Yes","age,sex, patient origin, last30days hx, admitting dx, infection on admission","prior hospitalization in the last 30 days (mv)"
+"Herindrainy 2011",2011,"Yes","SES, no. of rooms occupied,","occupation head of hh"
+"Isendahl 2012",2012,"Yes","age, gender, weight, miac, breastfeeding, bedsharing, children in hh, abx, hospitalisation","bedsharing"
+"Lonchel 2013",2013,"Yes","gender, age, hospital, diagnosi, 3m abx, hospitalisation,","hospitalisation during the previous year"
+"Schaumburg 2013",2013,"Yes","age, hospitalisation, residence, sex, diagnosis, abx use","age <=5, hospitalization for 5Ð7 days,, hospitalization for ³7 days, hospital stay during the past 12 months"
+"Nelson 2014",2014,"Yes","gestation, bw, sex, delivery, ward, abx use,","abx use"
+"Nelson 2014",2014,"Yes","delivery mode, admission 30d, abx 3m, abx 30d, current abx, catheter","nothing"
+"Chereau 2015",2015,"Yes","study area, age, education, marital status, type house, electricity, type of birth attendant, toilets, water, animals, hospitalisatin, abx use","indivisual house, private inside access to drinking water"
+"Desta 2016",2016,"Yes","higher maximum bed capacity per room 
+and increasing number of patients admitted in single room","higher maximum bed capacity per room"
+"Djuikoue 2016",2016,"Yes","age, pregnancy, abx last 3m, hospital last 3m","Presence of antimicrobial activity in the stool sample"
+"Farra 2016",2016,"Yes","age, sex, SES, nutritional status, toilets, urban/rural, hh members, meals","high SES"
+"Kurz 2016",2016,"Yes","caregiver status, gender , residence, ward, referral, other healtcare 3m, abx 3m, education, SES, water source, food, time to HC","colonised caregiver, antibiotics within the 
+preceding 3 months, eggs among the mostly consumed food items"
+"Mshana 2016",2016,"Yes","age, region, no of children in house, hx abx use, hx admission,","older age, h of admission, hx abx use,"
+"Tellevik, 2016",2016,"Yes","age, sex, residence, parental education, child group, nutritional status, use of abx","HIV, Kinondoni district"
+"Moremi 2017",2017,"Yes","age, education, herbs, source of income, source of food, street child type","local herb use"
+"Wilmore 2017",2017,"Yes","sex, age, CD4, VL, ART duration, admitted to hispital with pneumonia in last 12m, adm to hispital in at 12 m","ART<1year, admission withi pneumonia in last 12m"
+"Marando 2018",2018,"Yes","age, sex, weight, admission where, clinical factors, abx use, PROM","study area, age, education, marital status, type house, electricity,
+ type of birth attendant, toilets, water, animals, hospitalisatin, abx use"
+"Moremi 2018",2018,"Yes",NA,"older age"
+"Nikema Pessinaba 2018",2018,"Yes","age, sex, site, drinking water source, time to analysis","drinking wter source"
+"Sanneh 2018",2018,"Yes","WASH stuff, hospital  3m, procedures, guardians, abx 3m, abx from street, completing abx, diarrhoea/UTI 3m, food handling training","Lack of food handling training and knowledge of the principle of food safetyÊ, abx 3m"
+"Stanley 2018",2018,"Yes","afe, sex, health facility, presentation","none"
