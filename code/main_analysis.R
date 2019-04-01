@@ -136,7 +136,7 @@ df.a.sum$study_name <- factor(df.a.sum$study_name,levels = (unique(df.adults$stu
 ###
 
 metaprop(x, n, data = df.a.sum, 
-         , byvar = population, studlab = study_name) -> ma
+          byvar = population, studlab = study_name) -> ma
 
 forest(ma, col.square="black", hetstat=TRUE, comb.fixed = F, sortvar = rev(year_pub), comb.random = T, overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"), 
        leftlabs = c("Study", "n", "ESBL"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
