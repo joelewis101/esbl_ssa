@@ -1,0 +1,45 @@
+"study_name","year_pub","study_period","country","study_type","inclusion","Adults_or_children","median_age","carriage_n_patients"
+"Ruppe 2009",2009,"NA","Senegal","Cross sec.","village selcted for remoteness, convenience sample of children","children","6.9 (mean)",20
+"Tande 2009",2009,"2003","Mali","Cross sec.","staff of orphanage","children",NA,38
+"Tande 2009",2009,"2003","Mali","Cross sec.","occupants of orphanage","adults",NA,30
+"Andriatahina 2010",2010,"2008","Madagascar","Cohort","inpatients","children","38.3 months",244
+"Herindrainy 2011",2011,"2009","Madagascar","Cross sec.","health centre attendees","adults",NA,306
+"Herindrainy 2011",2011,"2009","Madagascar","Cross sec.","health centre attendees","children",NA,147
+"Woerther 2011",2011,"2007-08","Niger","Cohort","children with SAM+sever medical conition","children","16.3 months (mean)",55
+"Albrechtova 2012",2012,"2009","Kenya","Cross sec.","community members","adults",NA,23
+"Isendahl 2012",2012,"2010","Guinae-Bissau","Cross sec.","children attending hospital with fever or tachycardia","children",NA,408
+"Lonchel 2012",2012,"2009","Cameroon","Cross sec.","students","adults","24.7 years (mean)",150
+"Lonchel 2012",2012,"2009","Cameroon","Cross sec.","OP","adults","36.9 years(mean)",208
+"Lonchel 2013",2013,"2009","Cameroon","Cross sec.","hospitalised","adults","46.8 years (mean)",121
+"Magoue 2013",2013,"2010","Cameroon","Cross sec.","hospital_workers_and_their_families","adults",NA,87
+"Magoue 2013",2013,"2010","Cameroon","Cross sec.","inpatients","adults",NA,208
+"Magoue 2013",2013,"2010","Cameroon","Cross sec.","guardians of inpatients","adults",NA,63
+"Magoue 2013",2013,"2010","Cameroon","Cross sec.","outpatients","adults",NA,232
+"Schaumburg 2013",2013,"2010-11","Gabon","Cross sec.","hospitalised children","children",NA,200
+"Nelson 2014",2014,"2013","Tanzania","Cohort","pregnant women and neonates","neonates","0 days",126
+"Nelson 2014",2014,"2013","Tanzania","Cross sec.","pregnant women and neonates","adults","26.5 (mean)",113
+"Chereau 2015",2015,"2013-14","Madagascar","Cross sec.","pregnant women","adults","26 years",356
+"Desta 2016",2016,"2012","Ethopia","Cross sec.","inpatient > 48hr","adults","35 years",154
+"Desta 2016",2016,"2012","Ethopia","Cross sec.","inpatient > 48hr","children","7 years",94
+"Desta 2016",2016,"2012","Ethopia","Cross sec.","inpatient > 48hr","neonates","9 days",19
+"Djuikoue 2016",2016,"2011-12","Cameroon","Cross sec.","suspected UTI","adults",NA,86
+"Farra 2016",2016,"2013","Central african republic","Cross sec.","diarrhoeal study controls:
+healthy age- and sex-matched children without diarrhoea and antibiotic use during the previous 7 days","children","10.5 months",134
+"Kurz 2016",2016,"2014","Rwanda","Cohort","patients within 48h of admission and one main caregiver","both","29",753
+"Mshana 2016",2016,"2014","Tanzania","Cross sec.","communit members","both","10 years",334
+"Ribeiro 2016",2016,"2013","Angola","Cross sec.","random sample of humans with no abx/hospital exposure last 3 m","adults",NA,18
+"Tellevik, 2016",2016,"2010-11","Tanzania","Cross sec.","<2s: healthy attending foer vaccine,","children",NA,250
+"Tellevik, 2016",2016,"2010-11","Tanzania","Cross sec.","hospitalised for diarrhoea, hospitaliased for disease other than diarrhoea","children",NA,353
+"Magwenzi 2017",2017,"2015","Zimbabwe","Cohort","hospiatl admission within 24hr","children","1.0 year",164
+"Moremi 2017",2017,"2015","Tanzania","Cross sec.","street children","children","14.2 (mean)",107
+"Wilmore 2017",2017,"2014-15","Zimbabwe","Cross sec.","HIV infected, stable on ART","children","11",175
+"Chirindze 2018",2018,"2016","Mozambique","Cross sec.","students","adults",NA,275
+"Founou 2018",2018,"2017","South Africa","Cohort","hospital_admission","adults",NA,43
+"Herindrainy 2018",2018,"2015-16","Madagascar","Cross sec.","pregnant women","adults","26 years",275
+"Katakweba 2018",2018,"2011-13","Tanzania","Cross sec.","community_members","adults",NA,70
+"Marando 2018",2018,"2016","Tanzania","Cross sec.","sepsis","neonates","6 days",304
+"Moremi 2018",2018,"2014-15","Tanzania","Cohort","hospital_admission","adults",NA,930
+"Nikema Pessinaba 2018",2018,"2015-16","Togo","Cross sec.","<5s with febrile GE","children",NA,81
+"Sanneh 2018",2018,"2015","The Gambia","Cross sec.","food handlers in schools","adults","37 years (mean)",565
+"Stanley 2018",2018,"2017","Uganda","Cross sec.","participants who reared animals, 
+presented with a fever and/or diarrhea but without malaria","both","21.7 (mean)",300
