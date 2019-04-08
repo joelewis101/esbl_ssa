@@ -138,13 +138,46 @@ df.a.sum$study_name <- factor(df.a.sum$study_name,levels = (unique(df.adults$stu
 metaprop(x, n, data = df.a.sum, 
           byvar = population, studlab = study_name) -> ma
 
-forest(ma, col.square="black", hetstat=TRUE, comb.fixed = F, sortvar = rev(year_pub), comb.random = T, overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"), 
-       leftlabs = c("Study", "n", "ESBL"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
+ma$year_pub <- df.a.sum$year_pub
+
+forest(ma, col.square="black", hetstat=TRUE, comb.fixed = F, sortvar = -(year_pub), comb.random = T, overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"), 
+       leftlabs = c("Study", "n"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
        digits = 2,   xlim = c(0,1), fontsize = 8, 
        width = "4cm", height = "3cm",spacing = 0.8,
        weight.study = "fixed", bylab = "") 
 
 # save as 6 x10 in
 
+
+df.b.sum <- df.adults %>% group_by(study_name, Adults_or_children, year_pub) %>% 
+  summarise(n = sum(carriage_n_patients), x= sum(carriage_n_patients_ESBL_total)) 
+
+
+df.b.sum$Adults_or_children <- as.character(df.b.sum$Adults_or_children)
+df.b.sum$Adults_or_children <- str_to_title(df.b.sum$Adults_or_children)
+
+#df.b.sum$population <- factor(df.a.sum$population, levels = (c("Inpatient", "On hospital admission", "Outpatient","Community" )))           
+
+#df.a.sum$study_name <- factor(df.a.sum$study_name,levels = (unique(df.adults$study_name[order(df.adults$year_pub) ])))
+
+metaprop(x, n, data = df.b.sum, 
+         , byvar = Adults_or_children, studlab = study_name) -> mb
+
+mb$year_pub <- df.b.sum$year_pub
+
+forest(mb, col.square="black", comb.fixed = F,sortvar = -(year_pub), comb.random = F, hetstat=TRUE,
+       overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"),
+       print.I2 = TRUE,print.tau2 = TRUE, print.pval.Q = TRUE,
+       leftlabs = c("Study", "n"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
+       digits = 2,   xlim = c(0,1), fontsize = 8, 
+       width = "4cm", height = "3cm",spacing = 0.8,
+       weight.study = "fixed", bylab = "") 
+
+
+df.c.sum <- df.adults %>% group_by(study_name, population, Adults_or_children, year_pub) %>% 
+  summarise(n = sum(carriage_n_patients), x= sum(carriage_n_patients_ESBL_total)) 
+
+metaprop(x, n, data = df.c.sum, 
+         ,byvar = c("Adults_or_children", "population"), studlab = study_name) -> mc
 
 
