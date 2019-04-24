@@ -141,12 +141,12 @@ metaprop(x, n, data = df.a.sum,
 ma$year_pub <- df.a.sum$year_pub
 
 forest(ma, col.square="black", hetstat=TRUE, comb.fixed = F, sortvar = -(year_pub), comb.random = T, overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"), 
-       leftlabs = c("Study", "n"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
+       leftlabs = c("Study", "n"), rightlabs = c("ESBL prop.", "95% CI"), xlab = "", 
        digits = 2,   xlim = c(0,1), fontsize = 8, 
        width = "4cm", height = "3cm",spacing = 0.8,
        weight.study = "fixed", bylab = "") 
 
-# save as 6 x10 in
+# save as 7 x8.5 in
 
 
 df.b.sum <- df.adults %>% group_by(study_name, Adults_or_children, year_pub) %>% 
@@ -168,7 +168,7 @@ mb$year_pub <- df.b.sum$year_pub
 forest(mb, col.square="black", comb.fixed = F,sortvar = -(year_pub), comb.random = F, hetstat=TRUE,
        overall = F, leftcols = c("studlab", "n"), rightcols = c("effect", "ci"),
        print.I2 = TRUE,print.tau2 = TRUE, print.pval.Q = TRUE,
-       leftlabs = c("Study", "n"), rightlabs = c("ESBL (%)", "95% CI"), xlab = "", 
+       leftlabs = c("Study", "n"), rightlabs = c("ESBL prop.", "95% CI"), xlab = "", 
        digits = 2,   xlim = c(0,1), fontsize = 8, 
        width = "4cm", height = "3cm",spacing = 0.8,
        weight.study = "fixed", bylab = "") 
