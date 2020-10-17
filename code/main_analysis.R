@@ -47,10 +47,10 @@ df$study_name <- factor(df$study_name, levels = unique(df$study_name[order(df$pr
 ggplot(subset(df, Adults_or_children != "both"), aes(study_name, prev)) + geom_point() + geom_errorbar(aes(ymin = lci, ymax = uci)) + 
   coord_flip() + facet_wrap(~ Adults_or_children)
 
-df.adults <- subset(df, Adults_or_children == "adults" |  Adults_or_children == "children" | 
-                      Adults_or_children == "neonates" )
+#df.adults <- subset(df, Adults_or_children == "adults" |  Adults_or_children == "children" | 
+             #         Adults_or_children == "neonates" )
 
-
+df.adults <- df
 
 
 df.adults$population <- factor(df.adults$population,levels = c("IP" , "on_hospital_admission", "OP"  , "community",  "Community_and_OP","hospital_workers","IP guardians" ,"institution" ))
@@ -63,7 +63,7 @@ df.adults <- subset(df.adults, population == "community" |population == "IP" |
 df.a.sum <- df.adults %>% group_by(study_name) %>% mutate(n = sum(carriage_n_patients), x= sum(carriage_n_patients_ESBL_total))  
 
 metaprop(x, n, data = df.a.sum, 
-         , byvar = population, studlab = study_name) -> ma
+          byvar = population, studlab = study_name) -> ma
 
 summary <- data.frame(study_name = "Summary estimate", Adults_or_children = "Summary", population = ma$bylevs, prev = plogis(ma$TE.random.w),
                       lci = plogis(ma$lower.random.w), uci = plogis(ma$upper.random.w))
